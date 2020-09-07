@@ -4,8 +4,11 @@ clc       % rensar "Command Window"
 
 %% Fyll i uppmätt diodspänning Vd (V) och diodström Id (A) i nedanstående vektorer
 
-Vdlab = [0.5969];
-Idlab = [0.001];
+%Vdlab = [0.5969];
+%Idlab = [0.001];
+
+Vdlab = [0.519 0.631 0.709 0.816 0.906 0.942 0.98 1 1.065 1.1 1.144 1.224 1.3 1.454 1.568 ]
+Idlab = [0.0006 0.0006 0.0012 0.0113 0.0333 0.0475 0.0633 0.0735 0.0990 0.1108 0.124 0.1445 0.1582 0.181 0.197]
 
 %% Mätdata för Vd < 0.51V från Keithley 4200 (utanför tidsramen för labben)
 
